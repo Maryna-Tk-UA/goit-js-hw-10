@@ -20,7 +20,7 @@ function handleClick(event) {
         progressBar: false,
         messageColor: "white",
         icon: "",
-        iconUrl: "/img/check.svg ",
+        iconUrl: new URL('../img/check.svg', import.meta.url).href,
         close: false
       });
     })
@@ -32,7 +32,7 @@ function handleClick(event) {
             progressBar: false,
             messageColor: "white",
             icon: "",
-            iconUrl: "/img/error.svg",
+            iconUrl: new URL('../img/error.svg', import.meta.url).href,
             close: false
         })
     })
