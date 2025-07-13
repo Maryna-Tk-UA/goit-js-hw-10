@@ -37,7 +37,7 @@ const options = {
             progressBar: false,
             messageColor: "white",
             icon: "",
-            iconUrl: "../img/error.svg",
+            iconUrl: "public/img/error.svg",
         })
     } else {
         userSelectedDate = selectedDate;
